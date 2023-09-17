@@ -1,0 +1,5 @@
+<a href="index.html">Home page</a>
+            <a href="Skylander.html">Skylander</a>
+            <a href="LegoBionicle.html">Lego Bionicle</a>
+<link rel="stylesheet" href="styles/styles.css" />
+<img src="images/iron.jpeg" alt="image for homepage">
