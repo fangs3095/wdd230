@@ -31,7 +31,7 @@
   }
   
   main {
-    background: coral;
+    background: rgb(68, 187, 118);
     padding: 1rem;
     font-family: "Lora";
     text-align: center;
@@ -60,7 +60,7 @@
     list-style: none;
   }
   h2{
-      background-color: lightgrey;
+      background-color: white;
         width: 450px;
         border: 15px solid green;
         padding: 50px;
@@ -69,7 +69,7 @@
         align-content: center;
       }
   h3{
-    background-color: lightgrey;
+    background-color: white;
       width: 300px;
       border: 15px solid green;
       padding: 50px;
