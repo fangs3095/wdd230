@@ -18,6 +18,8 @@ header{
 }
 header h1{
    text-align:center;
+   font-family: "Roboto Mono";
+   
 }
 header a {
    display: block;
@@ -30,6 +32,7 @@ header a {
    text-align: center;
       align-content: center;/* align-content: center; */
       height: fit-content;
+      font-family: "Lora";
 }
 .disney{
 width: 600px;
@@ -38,6 +41,7 @@ width: 600px;
    margin-right: auto;
    text-align: center;
       align-content: center;
+      font-family: "Lora";
 }
 .train{
 width: 600px;
@@ -46,6 +50,7 @@ width: 600px;
    margin-right: auto;
    text-align: center;
       align-content: center;
+      font-family: "Lora";
 }
 header > div{
    /* display: inline-block; */
@@ -63,6 +68,7 @@ header > div{
      background: wheat;
      padding: 2rem;
      text-align: center;
+   font-family: "Roboto Mono";
   }
   .lego-dis{
    text-align: center;
