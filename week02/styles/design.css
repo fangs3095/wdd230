@@ -55,7 +55,7 @@ width: 600px;
 header > div{
    /* display: inline-block; */
    /* width: 100%; */
-   width: 200px;
+   /* width: 200px; */
    margin: 0 auto;
 }
  main {
@@ -73,3 +73,6 @@ header > div{
   .lego-dis{
    text-align: center;
   }
+ a{
+   text-align: center;
+ }
