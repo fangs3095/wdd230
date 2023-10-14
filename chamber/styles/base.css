@@ -10,25 +10,44 @@ body {
      margin: auto;
  }
   header {
-      background: green;
+      background: rgb(27, 193, 223);
       padding: 2rem;
       display: grid;
       grid-template-columns: 150px 1fr;
       align-items: center;
       justify-content: space-between;
-      font-family: "Roboto Mono";
-  }
-
-  main {
-      background: rgb(68, 187, 118);
-      padding: 1rem;
-      font-family: "Lora";
-      text-align: center;
-      display: grid;
+      font-family: "Times New Roman", Times, serif;
   }
 
   footer {
       background: wheat;
       padding: 2rem;
       text-align: center;
+  }
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Roboto, sans-serif;
+  }
+
+  main {
+      margin: 0;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      padding: 1rem;
+      width: 760px;
+      background-color: #eee;
+      color: #000;
+  }
+
+  #mode {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: 3rem;
+      cursor: pointer;
   }

@@ -1,0 +1,40 @@
+body {
+    width: 640px;
+    height: auto;
+    padding: 50px;
+    margin: auto;
+}
+
+header {
+    background: green;
+    padding: 2rem;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+main {
+    background: rgb(68, 187, 118);
+    padding: 1rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    display: grid;
+}
+
+footer {
+    background: wheat;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+#head{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
