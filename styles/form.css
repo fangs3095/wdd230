@@ -1,0 +1,102 @@
+
+
+    body {
+        width: 640px;
+        height: auto;
+        padding: 50px;
+        margin: auto;
+    }
+
+    header {
+        background: green;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "Roboto Mono";
+    }
+
+    main {
+        background: rgb(248, 222, 222);
+        padding: 1rem;
+        font-family: "Lora";
+        text-align: center;
+        display: grid;
+        align-content: center;
+    }
+
+    footer {
+        background: wheat;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .profile {
+        width: 100px;
+        height: auto;
+    }
+        #alpha:invalid,
+        #alpha:invalid {
+            background-color: #fff0f3;
+            border: 1px solid red;
+        }
+    
+        #alpha:invalid::before {
+            content: "❌";
+        }
+    
+    
+        #r {
+            width: 180px;
+            margin-bottom: 0;
+        }
+    
+        #rangevalue {
+            font-size: 2rem;
+            color: navy;
+        }
+    
+        #rangevalues {
+            display: flex;
+            margin: 0 0 0 25px;
+            width: 200px;
+            align-content: center;
+        }
+    
+        #rangevalues option {
+            flex: 1 1 auto;
+        }
+                form label.top,
+                form div {
+                    display: block;
+                    padding-top: 1rem;
+                    color: #9c2c13;
+                    font-size: .8rem;
+                }
+        
+                form label.top input,
+                form label.top select {
+                    -webkit-appearance: none;
+                    display: block;
+                    font-size: 1rem;
+                    border: solid 1px #000000;
+                    border-radius: 4px;
+                    padding: .75rem;
+                    color: #d80e0e;
+                    width: 100%;
+                    max-width: 20rem;
+                    background-color: rgba(0, 0, 0, 0.1);
+        
+                }
+                                form label.top input:required {
+                                    border-left: red solid 6px;
+                                }
+                
+                                form label.top input:required:valid {
+                                    border-left: green solid 6px;
+                                }

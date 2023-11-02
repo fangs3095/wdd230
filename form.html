@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Form colab</title>
+</head>
+
+<body>
+    <header style="background-image: url('okinawa_japan.webp;');">
+        <img class="profile" src="images/mepic.jpg" alt="Braxton profile image">
+        <h1>Braxton A. Keyes</h1>
+    </header>
+
+    <main>
+
+        <form action="record.html">
+            <legend>Applicat Information</legend>
+            <label class="top">User Name* <input type="text" name="uname" required></label>
+            <label class="top">Pasword* <input type="password" name="pword" required></label>
+            <label class="top">Pasword confiremend* <input type="password" name="cpword" required></label>
+            <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.com"
+                    pattern="[A-Za-z]{3}"
+                    title="at least eight (8) characters long and can only be alpha-numeric"><br><br></label>
+
+
+            <label for="r">INPUT: range, min, max, datalist, required</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </datalist>
+
+            <label for="btn"></label>
+            <input type="submit" name="btn">
+        </form>
+    </main>
+
+    <footer>
+        <p>&#169 2023</p>
+        <p>Braxton Avon Keyes Untied States of America</p>
+        <p class="date">lastModified</p>
+        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+
+</html>
