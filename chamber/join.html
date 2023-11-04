@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link href="favicon.ico" rel="shortcut icon" type="image/favicon.ico" />
     <link rel="stylesheet" href="styles/base.css" href="styles/larger.css" href="styles/medium.css">
-    
+
 </head>
 
 <body>
@@ -21,12 +21,37 @@
         <img src="images/bionicle.jpeg" alt="Lego Bionicle">
     </header>
     <main>
-       <form action="/chamber/thankyou.html" method="get">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname">
+        <form action="/chamber/thankyou.html" method="get">
+            <label for="fname">First name*: </label>
+            <input type="text" id="fname" name="fname" required>
+            <div class="lname">
+            <label for="lname">Last name*:</label>
+            <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="tp">
+            <label for="tp">Title or Position*:</label>
+            <input type="text" id="tp" name="tp" required>
+            </div>
+            <label class="top">Phone <input type="tel" name="Phone" placeholder="12355551234" required></label>
+            <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.c"> </label>
+            <label for="boname">Business/Organization's Name:</label>
+            <input type="text" id="boname" name="boname">
+
+            <legend>Membership Level</legend>
+            <div>Audience</div>
+            <label class="sbs"><input type="radio" name="audience" value="np">NP Membership is for non profit
+                organizations and there is no fee.</label>
+            <label class="sbs"><input type="radio" name="audience" value="intermediate">Bronze Membership</label>
+            <label class="sbs"><input type="radio" name="audience" value="silver">Silver Membership</label>
+            <label class="sbs"><input type="radio" name="audience" value="gold">Gold Membership</label>
+            <textarea name="dis" id="dis" cols="30" rows="10"></textarea>
+            <button onclick="myFunction(event)">Click me!</button>
+
+            <p>Time since this document was loaded: <span id="demo"></span></p>
+
             <label for="btn"></label>
             <input type="submit" name="btn">
-       </form>
+        </form>
     </main>
     <footer>
         <p>&#169 2023</p>

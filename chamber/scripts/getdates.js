@@ -47,3 +47,8 @@ numVisits++;
 
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+function myFunction(event) {
+  var n = event.timeStamp;
+  document.getElementById("demo").innerHTML = n;
+}
