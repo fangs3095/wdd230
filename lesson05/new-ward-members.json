@@ -1,0 +1,28 @@
+{
+  "familyName" : "teckno",
+  "datemoved" : "12/24/2023",
+  "numberinfamily" : 4,
+  "bishopvist" : "yes",
+  "familymembers" : [
+    {
+      "name" : "prime",
+      "birthday" : 1950,
+      "gender" :"female"
+    },
+    {
+      "name" : "arc",
+      "birthday" : 1980,
+      "gender" :"female"
+    },
+    {
+      "name" : "snake",
+      "birthday" : 2001,
+      "gender" :"female"
+    },
+    {
+      "name" : "wolf",
+      "birthday" : 2001,
+      "gender" :"female"
+    }
+  ]
+}

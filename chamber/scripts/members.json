@@ -1,0 +1,64 @@
+{
+  "cpName" : "Chanber of Lego Bionicle",
+  "numberofworkers" : 1,
+  "contacted" : "yes",
+  "companys that hve been visted" : [
+    {
+      "name" : "lego",
+      "adress" : "1950west 200north", // all adress are not corect
+      "phone numbers" :"female",
+      "website url": "",
+      "images/icon names": "",
+      "membership levels": ""
+    },
+    {
+      "name" : "arc",
+      "adress" : 1980,
+      "phone numbers" :"female",
+      "website url": "",
+      "images/icon names": "",
+      "membership levels": ""
+    },
+    {
+      "name" : "snake",
+      "adress" : 2001,
+      "phone numbers" :"female",
+      "website url": "",
+      "images/icon names": "",
+      "membership levels": ""
+    },
+    {
+      "name" : "wolf",
+      "adress" : 2001,
+      "phone numbers" :"female",
+      "website url": "",
+      "images/icon names": "",
+      "membership levels": ""
+    },
+    {
+      "name" : "wolf",
+      "adress" : 2001,
+      "phone numbers" :"female",
+      "website url": "",
+      "images/icon names": "",
+      "membership levels": ""
+    },
+     {
+      "name" : "wolf",
+      "adress" : 2001,
+      "phone numbers" :"female",
+      "website url": "",
+      "images/icon names": "",
+      "membership levels": ""
+    }
+   {
+      "name" : "wolf",
+      "adress" : 2001,
+      "phone numbers" :"female",
+      "website url": "",
+      "images/icon names": "",
+      "membership levels": ""
+    }
+  ]
+  
+}
