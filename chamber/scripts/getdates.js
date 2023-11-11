@@ -1,3 +1,26 @@
+fetch("scripts/members.json")
+	.then(function(response){
+		return response.json();
+	})
+
+	.then(function(members){
+		let placeholder = document.querySelector("#data-output")
+		let out = "";
+		for(let member of members){
+			out +=` <tr> 
+				<td> ${member.name}</td>
+				<td> ${member.adress}</td>
+				<td> ${member.phonenumbers}</td>
+				<td> ${member.websiteurl}</td>
+				<td> <img src='${member.images}'</td>
+				<td> ${member.membershiplevels}</td>
+			</tr>`;
+		}
+
+	placeholder.innerHTML = out;
+})	
+
+
 const modif = document.lastModified;
 console.log(modif);
 

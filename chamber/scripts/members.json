@@ -1,64 +1,68 @@
-{
-  "cpName" : "Chanber of Lego Bionicle",
-  "numberofworkers" : 1,
-  "contacted" : "yes",
-  "companys that hve been visted" : [
+[
+  
     {
-      "name" : "lego",
-      "adress" : "1950west 200north", // all adress are not corect
-      "phone numbers" :"female",
-      "website url": "",
-      "images/icon names": "",
-      "membership levels": ""
+      "id": 1,
+      "name" : "Lego",
+      "adress" : "1950west 200north", 
+      "phonenumbers" :"593-3284-34859",
+      "websiteurl": "lego.com",
+      "images": "images/brick.jpeg",
+      "membershiplevels": "Normal"
     },
     {
-      "name" : "arc",
-      "adress" : 1980,
-      "phone numbers" :"female",
-      "website url": "",
-      "images/icon names": "",
-      "membership levels": ""
+      "id": 2,
+      "name" : "Arc's CGI",
+      "adress" : "1980 South 47 west",
+      "phonenumbers" :"086-8678-67543",
+      "websiteurl": "Arck/CGI.org",
+      "images": "images/CGI.png",
+      "membershiplevels": "Basic"
     },
     {
-      "name" : "snake",
-      "adress" : 2001,
-      "phone numbers" :"female",
-      "website url": "",
-      "images/icon names": "",
-      "membership levels": ""
+      "id": 3,
+      "name" : "Serpent 3D Printing",
+      "adress" : "North 1325 South",
+      "phonenumbers" :"435-3452-72462",
+      "websiteurl": "serpent3dprinting.com",
+      "images": "images/3d.jpeg",
+      "membershiplevels": "Pernium"
     },
     {
-      "name" : "wolf",
-      "adress" : 2001,
-      "phone numbers" :"female",
-      "website url": "",
-      "images/icon names": "",
-      "membership levels": ""
+      "id": 4,
+      "name" : "Where Wolf Ads ",
+      "adress" : "2342 East 234 North",
+      "phonenumbers" :"3453-13451-32",
+      "websiteurl": "WhereWolfads.com",
+      "images": "images/ad.jpeg",
+      "membershiplevels": "Basic"
     },
     {
-      "name" : "wolf",
-      "adress" : 2001,
-      "phone numbers" :"female",
-      "website url": "",
-      "images/icon names": "",
-      "membership levels": ""
+      "id": 5,
+      "name" : "Time Stop Motion",
+      "adress" : "250 west 341 East ",
+      "phonenumbers" :"2345-324-23",
+      "websiteurl": "Time/stop/Motion.org",
+      "images": "images/clay.jpeg",
+      "membershiplevels": "Normal"
     },
      {
-      "name" : "wolf",
-      "adress" : 2001,
-      "phone numbers" :"female",
-      "website url": "",
-      "images/icon names": "",
-      "membership levels": ""
-    }
+      "id": 6,
+      "name" : "KeyesActing",
+      "adress" : "23452 east 345 north",
+      "phonenumbers" :"acting-345-3452",
+      "websiteurl": "keyesvoice/cast.org",
+      "images": "images/voice.jpeg",
+      "membershiplevels": "Pernium"
+    },
    {
-      "name" : "wolf",
-      "adress" : 2001,
-      "phone numbers" :"female",
-      "website url": "",
-      "images/icon names": "",
-      "membership levels": ""
+    "id": 7,
+      "name" : "Promotional Streamers",
+      "adress" : "43 north 23452 west",
+      "phonenumbers" :"234-324-2423",
+      "websiteurl": "PromotSteamsadds.org",
+      "images": "images/promot.png",
+      "membershiplevels": "Pernium"
     }
   ]
   
-}
+
