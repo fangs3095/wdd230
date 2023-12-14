@@ -1,0 +1,248 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.section-top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(shore.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 10s infinite;
+
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    text-align: center;
+}
+.content h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    letter-spacing: 16px;
+
+}
+.content a{
+    background: blue;
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+    line-height: 24px;
+
+}
+@keyframes slide{
+    0%{
+        background-image: url(final/img/shore.jpeg);
+    }
+    33% {
+      background-image: url(final/img/scut.jpeg);
+    }
+    67% {
+      background-image: url(final/img/side.jpeg);
+    }
+}
+
+header{
+    text-align: center;
+}
+p{
+    background-image: url();
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    color: #555;
+}
+
+table {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+table th {
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    /* background-color: #fff; */
+    border: thin solid #d4d4d4;
+}
+
+table td {
+    padding: 10px;
+    border: thin solid #d4d4d4;
+    width: 18%;
+    text-align: center;
+    background-color: #fff;
+}
+
+table img {
+    width: 70%;
+}
+
+table td.total-price {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+table a {
+    text-decoration: none;
+    color: darkred;
+    background-color: #ffecef;
+    padding: 10px 15px;
+}
+
+table a:active {
+    background-color: #ccf4d6;
+    color: green;
+}
+
+table select {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: thin solid #d4d4d4;
+    background-color: transparent;
+}
+
+table select:focus {
+    outline: none;
+}
+
+table img {
+    width: 60%;
+}
+
+.link{
+    align-content: center;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #000000;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+form label.fname input:required {
+    border-left: red solid 6px;
+
+}
+
+form label.lname {
+    text-align: left;
+}
+
+label {
+    color: red;
+}
+
+form label {
+    color: red;
+    align-content: center;
+
+}
+
+div.lname {
+    font-size: 17px;
+}
+
+div.tp {
+    font-size: 17px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main.color{
+    background-image: url(img/shore.jpeg);
+}
+

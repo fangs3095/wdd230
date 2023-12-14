@@ -1,0 +1,64 @@
+{
+	"products":[
+	{
+		"id": 1,
+		"image": "img/hond.jpeg",
+		"name": "~Honda PCX150 Scooter",
+		"persons":"1",	
+		"priceperday":"$35",
+		"price": "$25",
+		"inventory": "$20",
+		"productCode": "$30"
+	},
+	{
+		"id": 2,
+		"image": "img/scooter.jpeg",
+		"name": "~Honda Dio Scooter",
+		"persons":"2",	
+		"priceperday":"$45",		
+		"price": "$35",
+		"inventory": "$30",
+		"productCode": "$40"
+	},
+	{
+		"id": 3,
+		"image": "img/clasic.jpeg",
+		"name": "~Honda Metro Scooter",
+		"persons":"2",	
+		"priceperday":"$55",
+		"price": "$45",
+		"inventory": "$40",
+		"productCode": "$50"
+	},
+	{
+		"id": 4,
+		"image": "img/hjeep.jpeg",
+		"name": "Honda Pioneer ATV",
+		"persons":"4",	
+		"priceperday":"$80",
+		"price": "$60",
+		"inventory": "$50",
+		"productCode": "$70"
+	},
+	{
+		"id": 5,
+		"image": "img/jeep.jpeg",
+		"name": "Jeep Wrangler - 4 door with a/c",
+		"persons":"5",	
+		"priceperday":"$125",
+		"price": "$85",
+		"inventory": "$70",
+		"productCode": "$100"
+	},
+	{
+		"id": 6,
+		"image": "img/2door.jpeg",
+		"name": "Jeep Wrangler - 2 door",
+		"persons":"4",	
+		"priceperday":"$90",
+		"price": "$70",
+		"inventory": "$60",
+		"productCode": "$85"
+	}
+	]
+}

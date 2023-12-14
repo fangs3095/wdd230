@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Rental Services and Agreements
+        <li>A $50 security deposit is required to confirm reservations.</li> 
+        <li>A valid drivers license is required in hand at the time of rental.</li>
+        <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+        <li>Fuel charge is not included.</li>
+        <li>Unlimited mileage.</li> 
+        <li>Liability insurance is included.</li>
+        <li>Damage insurance is available for purchase.</li>
+        <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+        <li>payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+        <li>Rentals may be returned to either physical location.</li> </p>
+    <main class="color">
+        <form action="/final/thankyou.html" method="get">
+            <label for="fname">First name*: </label>
+            <input type="text" id="fname" name="fname" required>
+            <div class="lname">
+                <label for="lname">Last name*:</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="tp">
+                <label for="tp">Location 1 or Location 2*:</label>
+                <input type="text" id="tp" name="tp" required>
+            </div>
+            <label class="top">Phone <input type="tel" name="Phone" placeholder="12355551234" required></label>
+            <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.com">
+            </label>
+            <label for="boname">Business/Organization's Name:</label>
+            <input type="text" id="boname" name="boname">
+
+            <legend>Transport selection</legend>
+            <div>Please Select your Transport. Then in the box below please say how many days you want to rent the
+                vechical. As well as saying you agree to the Terns of Services</div>
+            <label class="sbs"><input type="radio" name="audience" value="OffRoadJeep">~Honda PCX150 Scooter</label>
+            <label class="sbs"><input type="radio" name="audience" value="MortorizeScooter">~Honda Dio Scooter</label>
+            <label class="sbs"><input type="radio" name="audience" value="ClasicScooter">~Honda Metro Scooter</label>
+            <label class="sbs"><input type="radio" name="audience" value="2personSidebySide">Honda Pioneer ATV</label>
+            <label class="sbs"><input type="radio" name="audience" value="Familyof4SidebySide">Jeep Wrangler - 4 door with a/c</label>
+            <label class="sbs"><input type="radio" name="audience" value="Familyof6SidebySide">Jeep Wrangler - 2 door</label>
+
+            <textarea name="dis" id="dis" cols="30" rows="10"></textarea>
+            <button onclick="myFunction(event)">Click me!</button>
+
+            <p>Time since this document was loaded: <span id="demo"></span></p>
+
+            <label for="btn"></label>
+            <input type="submit" name="btn">
+        </form>
+    </main>
+</body>
+
+</html>
