@@ -1,219 +1,249 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Mono:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
-@media (min-width:100)
- 
-{
-    box-sizing: border-box;
+@media (min-width:100) {
+  box-sizing: border-box;
+}
+
+body {
+  width: 640px;
+  height: auto;
+  padding: 50px;
+  margin: auto;
+}
+
+header {
+  background: green;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto Mono";
+}
+
+main {
+  background: rgb(68, 187, 118);
+  padding: 1rem;
+  font-family: "Lora";
+  text-align: center;
+  display: grid;
+}
+
+footer {
+  background: wheat;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.profile {
+  width: 100px;
+  height: auto;
+}
+
+section {
+  display: grid;
+  grid-column: 1;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+ul li {
+  margin-left: -10px;
+  list-style: none;
+}
+
+h2 {
+  background-color: white;
+  width: 450px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+h3 {
+  background-color: white;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.navigation a:hover,
+navigation a:active {
+  color: white;
+  background-color: black;
+}
+
+@media only screen and (min-width: 40em) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
   }
-  body {
-    width: 640px;
-    height: auto;
-    padding: 50px;
-    margin: auto;
-  }
-  
-  header {
-    background: green;
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    align-items: center;
-    justify-content: space-between;
-    font-family: "Roboto Mono";
-  }
-  
-  main {
-    background: rgb(68, 187, 118);
-    padding: 1rem;
-    font-family: "Lora";
-    text-align: center;
-    display: grid ;
-  }
-  
-  footer {
-    background: wheat;
-    padding: 2rem;
-    text-align: center;
-  }
-  h1{
-    text-align: center;
-  }
-  .profile{
-    width: 100px;
-    height: auto;
-  }
-  section{
-    display: grid;
-    grid-column: 1;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  ul li{
-    margin-left: -10px;
-    list-style: none;
-  }
-  h2{
-      background-color: white;
-        width: 450px;
-        border: 15px solid green;
-        padding: 50px;
-        margin: 20px;
-        text-align: center;
-        align-content: center;
-      }
-  h3{
-    background-color: white;
-      width: 300px;
-      border: 15px solid green;
-      padding: 50px;
-      margin: 20px;
-  }
-    .navigation a:hover,
-    navigation a:active {
-      color: white;
-      background-color: black;
-    }
-  @media only screen and (min-width: 40em) {
-    .navigation {
-      display: flex;
-      flex-direction: column;
-        }
-    
+
   .navigation li {
     display: block;
     flex: 1 1 100%;
-          }
-    
+  }
+
   .navigation a {
-     text-align: center;
-          }
-    
+    text-align: center;
+  }
+
   #menu {
     display: none;
-       }
-        }
-        
-  .show li {
-    display: block;
-      }
-        
-    #menu.show::before {
-      content: "X";
-            }
-   * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-         }
-            
-    body {
-      font-family: Roboto, sans-serif;
-         }
+  }
+}
 
-    #menu {
-      display: block;
-      font-size: 2rem;
-      font-weight: 700;
-      text-decoration: none;
-      padding: .5rem .75rem;
-      background-color: #eee;
-      color: #000;
-         }
-            
-    #menu::before {
-        content: "≡";
-                  }
-            
-    nav {
-        background-color: rgb(7, 214, 152);
-       }
-            
-    .navigation {
-        list-style: none;
-        margin: 0 auto;
-        max-width: 760px;
-              }
-            
-    .navigation li {
-        display: none;
-                 }
-            
-    .navigation a {
-        display: block;
-        padding: 0.75rem;
-        text-align: left;
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
-        transition: 0.5s;
-        font-size: clamp(1rem, 2vmin, 1.5rem);
-    }                   
-    .hero-img{
-      background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("okinawa_japan.webP");
-    
-         height: 50%;
-         background-position: center;
-         background-repeat: no-repeat;
-         background-size: cover;
-         position: relative;
-         }
-    
-         .hero-text {
-           text-align: center;
-           position: absolute;
-           top: 50%;
-           left: 50%;
-           transform: translate(-50%, -50%);
-           color: white;
-         }
-                 #visits {
-                   color: navy;
-                   font-weight: bolder;
-                   font-size: larger;
-                 }
-                 body {
-                   font-family: "Lato", sans-serif;
-                 }
-        
-                 .sidenav {
-                   height: 100%;
-                   width: 160px;
-                   position: fixed;
-                   z-index: 1;
-                   top: 0;
-                   left: 0;
-                   background-color: #111;
-                   overflow-x: hidden;
-                   padding-top: 20px;
-                 }
-        
-                 .sidenav a {
-                   padding: 6px 8px 6px 16px;
-                   text-decoration: none;
-                   font-size: 25px;
-                   color: #818181;
-                   display: block;
-                 }
-        
-                 .sidenav a:hover {
-                   color: #f1f1f1;
-                 }
-        
-                 .main {
-                   margin-left: 160px;
-                
-                   font-size: 28px;
-                  
-                   padding: 0px 10px;
-                 }
-        
-                 @media screen and (max-height: 450px) {
-                   .sidenav {
-                     padding-top: 15px;
-                   }
-        
-                   .sidenav a {
-                     font-size: 18px;
-                   }
-                 }
-                       
+.show li {
+  display: block;
+}
+
+#menu.show::before {
+  content: "X";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#menu {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .5rem .75rem;
+  background-color: #eee;
+  color: #000;
+}
+
+#menu::before {
+  content: "≡";
+}
+
+nav {
+  background-color: rgb(7, 214, 152);
+}
+
+.navigation {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: 0.5s;
+  font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.hero-img {
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("okinawa_japan.webP");
+
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#visits {
+  color: navy;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+
+  font-size: 28px;
+
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+
+    flex: 1 1 100%;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  #menu {
+    display: none;
+  }
+}
