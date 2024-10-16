@@ -1,13 +1,13 @@
 fetch("scripts/members.json")
-	.then(function(response){
+	.then(function (response) {
 		return response.json();
 	})
 
-	.then(function(members){
+	.then(function (members) {
 		let placeholder = document.querySelector("#data-output")
 		let out = "";
-		for(let member of members){
-			out +=` <tr> 
+		for (let member of members) {
+			out += ` <tr> 
 				<td> ${member.name}</td>
 				<td> ${member.adress}</td>
 				<td> ${member.phonenumbers}</td>
@@ -17,8 +17,8 @@ fetch("scripts/members.json")
 			</tr>`;
 		}
 
-	placeholder.innerHTML = out;
-})	
+		placeholder.innerHTML = out;
+	})
 
 
 const modif = document.lastModified;
@@ -27,30 +27,17 @@ console.log(modif);
 
 
 
-document.querySelector(".date").textContent= `${modif} the last modified`;
+document.querySelector(".date").textContent = `${modif} the last modified`;
 
 const mainnav = document.querySelector('.navigation')
 const hambutton = document.querySelector('#menu');
 
 
-hambutton.addEventListener('click', () => {
-	mainnav.classList.toggle('open');
-	hambutton.classList.toggle('close');
-});
-const modeButton = document.querySelector("#mode");
-const main = document.querySelector("main");
+// hambutton.addEventListener('click', () => {
+// 	mainnav.classList.toggle('open');
+// 	hambutton.classList.toggle('close');
+// });
 
-modeButton.addEventListener("click", () => {
-	if (modeButton.textContent.includes("🕶️")) {
-		main.style.background = "#000";
-		main.style.color = "#fff";
-		modeButton.textContent = "🔆";
-	} else {
-		main.style.background = "#eee";
-		main.style.color = "#000";
-		modeButton.textContent = "🕶️";
-	}
-});
 
 
 const visitsDisplay = document.querySelector(".visits");
@@ -72,8 +59,8 @@ numVisits++;
 localStorage.setItem("numVisits-ls", numVisits);
 
 function myFunction(event) {
-  var n = event.timeStamp;
-  document.getElementById("demo").innerHTML = n;
+	var n = event.timeStamp;
+	document.getElementById("demo").innerHTML = n;
 }
 
 const gridbutton = document.querySelector("#grid");
@@ -83,15 +70,28 @@ const display = document.querySelector("article");
 
 
 gridbutton.addEventListener("click", () => {
-	
+
 	display.classList.add("grid");
 	display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); 
+listbutton.addEventListener("click", showList);
 
 function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+const modeButton = document.querySelector("#mode");
+const main = document.querySelector("main");
 
+modeButton.addEventListener("click", () => {
+	if (modeButton.textContent.includes("🕶️")) {
+		main.style.background = "#000";
+		main.style.color = "#fff";
+		modeButton.textContent = "🔆";
+	} else {
+		main.style.background = "#eee";
+		main.style.color = "#000";
+		modeButton.textContent = "🕶️";
+	}
+});
