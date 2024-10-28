@@ -1,15 +1,5 @@
 
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
-}
 
-
-numVisits++;
-
-
-localStorage.setItem("numVisits-ls", numVisits);
 
 const mainnav = document.querySelector('.navigation')
 const hambutton = document.querySelector('#menu');
