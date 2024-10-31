@@ -97,6 +97,7 @@ localStorage.setItem("numVisits-ls", numVisits);
 
 // 💡A client can view the localStorage data using the Applications panel in the browsers's DevTools - check it out on any major site.
 // milliseconds to days constant = 1000 ms/s * 60 s/m * 60 m/h * 24 h/day
+document.querySelector('.today').textContent = Date.now();
 const msToDays = 86400000;
 // today's date
 const theDateToday = new Date();
