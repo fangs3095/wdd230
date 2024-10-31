@@ -84,7 +84,7 @@
     }
 
     .section4 {
-        height: 100px;
+        height: 150px;
 
 
     }
@@ -369,3 +369,22 @@
     table img {
         width: 60%;
     }
+
+    p {
+        margin: 1rem;
+        display: flex;
+    }
+
+    .label {
+        display: block;
+        width: 175px;
+        font-weight: 700;
+        color: navy;
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    .smaller {
+        font-size: smaller;
+    }
+    
